@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<LangVersion>11.0</LangVersion>
+	<RootNamespace>SDcp</RootNamespace>
+	<AssemblyName>SDcp</AssemblyName>
+	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+</Project>

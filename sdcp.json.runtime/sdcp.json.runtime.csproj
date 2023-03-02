@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<LangVersion>11.0</LangVersion>
+		<RootNamespace>SDcp.Json.Runtime</RootNamespace>
+		<AssemblyName>SDcp.Json.Runtime</AssemblyName>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sdcp.json\sdcp.json.csproj" />
+    <ProjectReference Include="..\sdcp.runtime\sdcp.runtime.csproj" />
+    <ProjectReference Include="..\sdcp\sdcp.csproj" />
+  </ItemGroup>
+
+</Project>
